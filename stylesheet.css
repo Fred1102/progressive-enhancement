@@ -1,8 +1,86 @@
 body
 {
-background-color:yellow
+    display: inline-block;
+    margin: 0px auto; 
+    text-align: center; 
+    height: 90%;
+    padding: 1;
+
+    background: -webkit-radial-gradient(rgb(150, 201, 246), rgb(63, 85, 106));
+    background: radial-gradient(rgb(150, 201, 246), rgb(63, 85, 106));
+    }
+
+q{
+font-size: 30px; 
+background-color: grey; 
+border-left: 3px solid black; 
+padding-right: 30px; 
+border: 80px;
+font-style: italic; 
+
 }
-{
+
+blockquote, q {
+    width: 45%;
+    margin: auto;
+    font-size: 160%;
+    background-color: #D3d3d3;
+    border-left: 3px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 700px;
+    }
+
+#img1 {
+    size: cover; 
+    position: bottom right; 
+    width: 100%; 
+    height: auto; 
+    opacity: 0.3; 
+
+}
+.header element {
+    background-colour: yellow;
+}
+
+
+body {
+    background-color: #14375a;
+    background-image: url("colored-suares-vector-free-background-pre-768x512?jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    color: white;
+    }
+
+    ul li.bien {
+        list-style: none;
+        background-image:url("bien.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        }
+        
+        ul li.mal {
+        list-style: none;
+        background-image:url("mal.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        }
+        
+        ul li.chat {
+        list-style: none;
+        background-image:url("chat.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        }
+p{
 font-family:"Serif";
-font-size:30px;
+font-size:12px;
+font-color: grey; 
 }
