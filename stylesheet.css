@@ -43,7 +43,7 @@ blockquote, q {
 
 }
 .header element {
-    background-colour: yellow;
+    background: yellow;
 }
 
 
@@ -82,5 +82,5 @@ body {
 p{
 font-family:"Serif";
 font-size:12px;
-font-color: grey; 
+font: grey; 
 }
